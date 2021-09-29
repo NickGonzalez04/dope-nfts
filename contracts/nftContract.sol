@@ -75,6 +75,8 @@ contract DopeNft is ERC721URIStorage {
     // Alien Galaxy  - **coming soon
     // string[] homePlanet = ["Mustafar", "Genosis", "Polis Massa", "Wobani", "Eadu", "Mygeeto", "D'Qar", "Endor", "Naboo", "Coruscant", "Ahch-To", "Bespin", "Tatooine", "Kashyyyk", "Scarif", "Takodana"];
 
+    // Event to retrieve tokenID to show user their NFT on opensea.io
+    event newAlienNFT(address sender, uint256 tokenId);
     constructor() ERC721 ('_Back to the Ether', 'SQAURE') {
     console.log('Inside DopeNFT contract');
     }
@@ -181,8 +183,10 @@ contract DopeNft is ERC721URIStorage {
         // _setTokenURI(newItemId, 'https://jsonkeeper.com/b/C4MV');
         _setTokenURI(newItemId, tokenUri);
         console.log('An NFT w/ ID %s has been minted to %s', newItemId, msg.sender);
-        // tokenId is increment when nft is minted 'created'
+        // tokenId is incremented when nft is minted 'created'
         _tokenIds.increment();
+        // Trigger the event that is set up to direct user to opensea.io for their NFt
+        emit newAlienNFT(msg.sender, newItemId);
     }
 
 }

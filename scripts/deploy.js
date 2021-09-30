@@ -6,9 +6,9 @@ const main = async() => {
     await nftContract.deployed();
     console.log("contract deployed to:", nftContract.address);
 
-    let tranx = await nftContract.constructDopeNft();
-    await tranx.wait();
-    console.log("Minted NFT #1")
+    // let tranx = await nftContract.constructDopeNft();
+    // await tranx.wait();
+    // console.log("Minted NFT #1")
 
     // tranx = await nftContract.constructDopeNft();
     // await tranx.wait();

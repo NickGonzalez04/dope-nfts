@@ -11,6 +11,9 @@ const main = async() => {
 
     tranx = await nftContract.constructDopeNft();
     await tranx.wait();
+    
+    tranx = await nftContract.constructDopeNft();
+    await tranx.wait();
 };
 
 const runMain = async ()=>{

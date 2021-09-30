@@ -30,15 +30,18 @@ contract DopeNft is ERC721URIStorage {
 
     string hatPiece = "<path d='M171.552 34.2382L171.576 34.2402L171.601 34.2373C201.863 30.6619 220.93 37.2633 232.427 46.5404C243.931 55.8229 247.882 67.8026 247.882 75.031C247.882 78.5804 245.855 81.9961 242.111 85.1356C238.369 88.274 232.94 91.1116 226.208 93.4995C212.748 98.2745 194.136 101.233 173.566 101.233C152.996 101.233 134.384 98.2745 120.923 93.4995C114.192 91.1116 108.762 88.274 105.02 85.1356C101.277 81.9961 99.25 78.5804 99.25 75.031C99.25 67.7683 101.298 56.2723 111.328 47.2439C121.359 38.2154 139.422 31.6098 171.552 34.2382Z' fill='white' stroke='black' stroke-width='0.5'/><path d='M173.579 67.7967L173.587 67.7972L173.595 67.7972C182.731 67.8071 189.441 68.2548 194.368 69.0193C199.298 69.7843 202.422 70.8637 204.402 72.1235C206.369 73.3754 207.21 74.8077 207.57 76.3132C207.859 77.5185 207.843 78.7673 207.826 80.0447C207.822 80.3901 207.817 80.7376 207.818 81.0869C207.824 82.5917 206.93 84.0673 205.219 85.4483C203.51 86.8275 201.019 88.0843 197.916 89.1487C191.714 91.2764 183.123 92.6161 173.616 92.6546C164.109 92.693 155.508 91.4229 149.289 89.3454C146.178 88.3063 143.676 87.0696 141.956 85.7044C140.234 84.3372 139.328 82.8689 139.322 81.3641C139.32 81.077 139.316 80.785 139.311 80.4892C139.264 77.4241 139.21 73.9542 142.824 71.3491C144.821 69.9098 147.956 68.7217 152.88 68.0444C157.801 67.3674 164.491 67.2032 173.579 67.7967Z' fill='black' stroke='black' stroke-width='0.5'/>";
 
-    string spaceHelmet = "<line x1='157.906' y1='311.001' x2='189.891' y2='310.001' stroke='#8F8E8E' stroke-width='6'/><line x1='157.906' y1='317.001' x2='189.891' y2='316.001' stroke='#8F8E8E' stroke-width='6'/><path d='M309.5 166C309.5 245.839 249.249 310.5 175 310.5C100.751 310.5 40.5 245.839 40.5 166C40.5 86.1606 100.751 21.5 175 21.5C249.249 21.5 309.5 86.1606 309.5 166Z' fill='#C4C4C4' fill-opacity='0.34' stroke='black'/>'<ellipse cx='171.5' cy='36.5' rx='9.5' ry='1.5' fill='black'/>'";
+    string spaceHelmet = "<line x1='155.906' y1='305.001' x2='187.891' y2='304.001' stroke='#8F8E8E' stroke-width='6'/><line x1='155.906' y1='299.001' x2='187.891' y2='298.001' stroke='#8F8E8E' stroke-width='6'/><circle cx='172' cy='151' r='144.5' fill='#C4C4C4' fill-opacity='0.34' stroke='black'/><rect x='120' y='310' width='100' height='32.4675' fill='url(#pattern0)'/>";
 
     string tongue = "<path d='M186.979 261.983L186.975 262.018V262.053C186.975 271.265 181.233 278.5 174.404 278.5C167.574 278.5 161.833 271.265 161.833 262.053V262.026L161.83 262C161.317 257.16 161.43 253.731 161.977 251.306C162.522 248.893 163.489 247.507 164.671 246.694C165.867 245.872 167.355 245.584 169.046 245.517C169.888 245.483 170.766 245.505 171.668 245.535C171.824 245.541 171.981 245.546 172.139 245.552C172.887 245.579 173.649 245.606 174.404 245.606C175.153 245.606 175.918 245.579 176.673 245.553C176.838 245.547 177.003 245.541 177.167 245.536C178.087 245.505 178.989 245.483 179.859 245.517C181.606 245.584 183.161 245.873 184.401 246.699C185.623 247.512 186.607 248.895 187.119 251.3C187.634 253.719 187.664 257.144 186.979 261.983Z' fill='#F5B0E4' stroke='black'/>";
     
     string antenna = "<path d='M209.329 77.377C209.329 77.377 213 32 247 42.5' stroke='#7CE636' stroke-width='4'/><circle cx='248' cy='43' r='3' fill='#7CE636'/><path d='M140.679 76.7222C140.679 76.7222 137.008 31.3452 103.008 41.8452' stroke='#7CE636' stroke-width='4'/><circle cx='102' cy='42' r='3' fill='#7CE636'/>";
 
+    string teeth = "<path d='M201 227C201 241.5 188.912 230 174 230C159.088 230 147 238.5 147 227C147 213.5 159.088 224 174 224C188.912 224 201 212.5 201 227Z' fill='black'/><path d='M150.5 220C154 219.866 165.602 222.438 174.584 224C174.584 224 194.226 216.437 197.584 219.866C200.943 223.296 201.226 232.937 197.584 234.866C193.943 236.796 183.732 230.649 174.584 230.366C165.531 230.086 154.584 233.866 151.584 233.366C148.584 232.866 147 220.134 150.5 220Z' fill='white'/><line x1='148.005' y1='226.75' x2='201.005' y2='227.75' stroke='black' stroke-width='0.5'/>";
+
     string baseEnd ="<defs><filter id='filter0_d' x='114.342' y='212.54' width='18.658' height='17.8287' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'><feFlood flood-opacity='0' result='BackgroundImageFix'/><feColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/><feOffset dy='4'/><feGaussianBlur stdDeviation='2'/><feComposite in2='hardAlpha' operator='out'/><feColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0'/><feBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow'/><feBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow' result='shape'/></filter>";
 
-
+    // Non-Id for when miniting is > 10
+    string noId = "";
     // Alien ID's
     string zero = "<pattern id='pattern0' patternContentUnits='objectBoundingBox' width='1' height='1'><use xlink:href='#image0' transform='scale(0.00980392 0.02)'/></pattern><image id='image0' width='102' height='50' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGYAAAAyAQMAAACUDjzAAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAASUlEQVQokWP4jwT+MDQwIAAL/XlSTj5+J29a6x2zOjDieCSGWQAKL/Dx8QYE77dZzgFcvOCyt8hy2/Nwq0ThodpAcUyTyUNJrQCGmJubNrbrkgAAAABJRU5ErkJggg=='/>";  
     
@@ -63,9 +66,9 @@ contract DopeNft is ERC721URIStorage {
     string nine = "<pattern id='pattern0' patternContentUnits='objectBoundingBox' width='1' height='1'><use xlink:href='#image0' transform='scale(0.00649351 0.02)'/></pattern><image id='image0' width='154' height='50' xlink:href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJoAAAAyAQMAAACeflDXAAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAXklEQVQ4jWP4jwkOMDQwYACHoSPIuMQsTWmjtJGP38mbp/W+WR0YFaSTINViMwBD0L6GIfDx8QZUQZ40ht9mOQeIEwwue4NF5fZ0bNoTsGjHMBOrk0jy5mARxFYIAAD03uo9yn23FgAAAABJRU5ErkJggg=='/>";
 
     // arrays holding string of words that will be used to pick random words for NFT generation
-    string[] backgroundColor = ['black','white', '#638596', '#95554f'];
-    string[] alienSkinColor = ['#7CE636','#86D4F7','#A19FFB','#9CE491','#EC9FFF','#FFFFFFD' ];
-    string[] headPiece = [smoker, hatPiece, spaceHelmet, antenna, tongue];
+    string[] backgroundColor = ['black','white', '#638596', '#95554f','black', '#638596', '#95554f', '#638596', '#95554f','black','white', '#638596', '#95554f','black', '#638596', '#95554f', '#95554f'];
+    string[] alienSkinColor = ['#7CE636','#86D4F7','#A19FFB','#828282', '#9CE491','#EC9FFF','#EB5757','#86D4F7','#A19FFB','#9CE491','#EC9FFF','#FFFFFFD', '#7CE636','#86D4F7','#828282', '#828282','#A19FFB','#9CE491','#EC9FFF', '#EB5757', '#EB5757' ];
+    string[] headPiece = [smoker, hatPiece, teeth, spaceHelmet, antenna, tongue, smoker, hatPiece, teeth, spaceHelmet, antenna, tongue];
     string[] idCard = [zero, one, two, three, four, five, six, seven, eight, nine];
 
     // Alien Full Name
@@ -75,7 +78,10 @@ contract DopeNft is ERC721URIStorage {
     // Alien Galaxy  - **coming soon
     // string[] homePlanet = ["Mustafar", "Genosis", "Polis Massa", "Wobani", "Eadu", "Mygeeto", "D'Qar", "Endor", "Naboo", "Coruscant", "Ahch-To", "Bespin", "Tatooine", "Kashyyyk", "Scarif", "Takodana"];
 
-    constructor() ERC721 ('_Back to the Ether', 'SQAURE') {
+    // Event to retrieve tokenID to show user their NFT on opensea.io
+    event newAlienNFT(address sender, uint256 tokenId);
+
+    constructor() ERC721 ('Back To The _ETHER ', 'SQAURE') {
     console.log('Inside DopeNFT contract');
     }
 
@@ -93,15 +99,18 @@ contract DopeNft is ERC721URIStorage {
     }
 
       function pickHeadFeature(uint tokenId) public view returns (string memory) {
-        uint256 randPick = random(string(abi.encodePacked(smoker, Strings.toString(tokenId))));
+        uint256 randPick = random(string(abi.encodePacked(teeth, Strings.toString(tokenId))));
         randPick = randPick % headPiece.length;
          return headPiece[randPick];
     }
 
-      function idCardSelection(uint tokenId) public view returns (string memory) {
-        uint256 randPick = random(string(abi.encodePacked(zero, Strings.toString(tokenId))));
-        randPick = randPick % idCard.length;
-         return idCard[randPick];
+    // card selection for adding in special svg type to first 10 minted NFTs
+      function idCardSelection(uint tokenId) public view returns (string memory){
+          // Only adding in the id bard code to first ten mints
+        if(tokenId > 10){
+            return noId;
+        }
+        return idCard[tokenId];
     }
 
     // random first name 
@@ -117,6 +126,7 @@ contract DopeNft is ERC721URIStorage {
         randPick = randPick % lastName.length;
         return lastName[randPick];
     }
+
     // Taken out until it is ready to put into Metadata
     // function pickhomePlanet(uint tokenId) public view returns (string memory) {
     //     uint256 randPick = random(string(abi.encodePacked("Mustafar", Strings.toString(tokenId))));
@@ -128,18 +138,26 @@ contract DopeNft is ERC721URIStorage {
       return uint256(keccak256(abi.encodePacked(input)));
   }
 
+    // Get total mints. Do this by returning the current value from .current()
+    function getTotalMints() public view returns (uint256) {
+        uint256 totalMints = _tokenIds.current();
+        return totalMints;
+    }
 
     // function for user to use for minting their NFT
     function constructDopeNft() public {
         // Retrieving tokenId - starts at 0
+        // requiring that current tokenId does not exceed 50 mints
+        require(_tokenIds.current() != 50 || _tokenIds.current() > 50, "Reached Miniting Limit");
         uint256 newItemId = _tokenIds.current();
+     
 
         // functions that run our random pic of our NFT
         string memory background = pickRandomColor(newItemId);
         string memory headColor = pickSkinColor(newItemId);
         string memory headFeature = pickHeadFeature(newItemId);
         string memory idNum = idCardSelection(newItemId);
-        
+
         // functions that return names
         string memory first = pickfirstName(newItemId);
         string memory last = picklastName(newItemId);
@@ -174,17 +192,18 @@ contract DopeNft is ERC721URIStorage {
         console.log("\n--------------------");
         console.log(alienSVG);
         console.log("--------------------\n");
-        console.log(tokenUri);
+        // console.log(tokenUri);
         // function that mints an NFT from msg.sender which is the address of user .. // that is using func.
         _safeMint(msg.sender, newItemId);
         // setting data to new NFT
         // _setTokenURI(newItemId, 'https://jsonkeeper.com/b/C4MV');
         _setTokenURI(newItemId, tokenUri);
         console.log('An NFT w/ ID %s has been minted to %s', newItemId, msg.sender);
-        // tokenId is increment when nft is minted 'created'
+        // tokenId is incremented when nft is minted 'created'
         _tokenIds.increment();
+        // Trigger the event that is set up to direct user to opensea.io for their NFt
+        emit newAlienNFT(msg.sender, newItemId);
     }
-
 }
 
 

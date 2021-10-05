@@ -1,3 +1,3 @@
 # dope-nfts
- Solidity Contract that allows for minting of NFTs.
+ Solidity Contract that allows for the minting of 👽 NFTs!
  
